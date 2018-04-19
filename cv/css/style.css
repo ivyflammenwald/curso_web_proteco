@@ -1,0 +1,74 @@
+body{
+	background-color: #7D6565;
+	font: 20px serif;
+}
+
+header{
+	background: #F14E4E;
+	border: 2px solid black;
+	font: 2em sans-serif;
+}
+
+ul
+{
+	list-style: none;
+}
+
+
+img{
+	width: 300px;
+	/*alignment-baseline: : center;*/
+}
+
+
+nav{
+	position: relative;
+	font-color:#2B0740;
+	width: 300px;
+	height: 100px;
+	padding: 6px 5px 6px 10px;
+	background-color: #8FD8D2;
+	font: 15px serif;
+	border: 2px solid black;
+}
+
+.nota{
+	position: relative;
+	font: 10px serif;
+	border: 2px solid black;
+	background-color:#83E962 ;
+}
+
+.datosdecotacto{
+	border: 5px solid gray;
+	color: purple;
+	background-color: orange;
+	margin: 0px 40px 100px 100px;
+
+}
+
+.idiomas{
+	border: 5px solid gray;
+	background: #E4DD6F;
+	padding: 40px;
+	margin: 30px;
+}
+
+.escolaridad{
+	border: 2px solid black;
+	color: #1F1111;
+	background-color: #C3B786;
+	margin: 0px 40px 100px 100px;
+
+}
+
+
+.experiencia{
+	position: static;
+	border: 5px solid gray;
+	color: purple;
+	background-color: orange;
+	margin: 0px 40px 100px 100px;
+
+}
+
