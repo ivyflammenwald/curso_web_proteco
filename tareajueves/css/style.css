@@ -1,0 +1,94 @@
+body {
+	background-color:green;
+}
+
+h1 {
+	color: black;
+	text-align: center;
+}
+
+h2 {
+	color: blue;
+	text-align: center;
+}
+
+div {
+	margin: auto;
+}
+
+/*========================*/
+
+.pacman {
+	margin: 60px 15px;
+}
+
+.pacman1 {
+	background-color: yellow;
+	height: 100px;
+	width: 230px;
+	border-radius: 100px 100px 0 0;	
+	animation-name: down;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+.pacman2 {
+	background-color: yellow;
+	height: 100px;
+	width: 230px;
+	border-radius: 0 0 100px 100px;
+	animation-name: up;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes down{
+	from {
+		transform: rotate(0deg);
+		left: 0px;	
+	}
+	to {
+		transform: rotate(-45deg);
+		left: 0px;
+	}
+}
+
+@keyframes up {
+	from {
+		transform: rotate(0deg);
+		left: 0px;	
+	}
+	to {
+		transform: rotate(45deg);
+		left: 0px;
+	}
+}
+
+
+/*========================*/
+
+.rec {
+	background-color: purple;
+	width: 300px;
+	height: 150px;
+	animation-name: rect;
+	animation-duration: 10s;
+	position: relative;
+	animation-iteration-count: infinite;
+}
+
+@keyframes rect {
+	0%{width:300px ;}
+	25%{	width:350px ;	}
+	50%{		width:450px ;}
+	75%{	width:300px ;	}
+	100%{width:200px ;}
+}
+
+
+
+
+
+
+
+
