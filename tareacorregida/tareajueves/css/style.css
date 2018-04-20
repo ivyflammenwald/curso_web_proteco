@@ -1,0 +1,104 @@
+body {
+	background-color:green;
+}
+
+h1 {
+	color: black;
+	text-align: center;
+}
+
+h2 {
+	color: blue;
+	text-align: center;
+}
+
+div {
+	margin: auto;
+}
+
+/*========================*/
+
+.pacman {
+	margin: 60px 15px;
+}
+
+.pacman1 {
+	background-color: yellow;
+	height: 100px;
+	width: 230px;
+	border-radius: 100px 100px 0 0;	
+	position: relative;
+	animation-name: down;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+.pacman2 {
+	background-color: yellow;
+	height: 100px;
+	width: 230px;
+	border-radius: 0 0 100px 100px;
+	position: relative;
+	animation-name: up;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes down{
+
+	0%{transform: rotate(0deg);
+		left:75%;}
+	25%{transform: rotate(45deg);
+		left:40%;}
+	50%{transform: rotate(0deg);
+		left:0%;}
+	75%{transform: rotate(45deg);
+		right:40%;}
+	100%{transform: rotate(0deg);
+		right:75%;}
+
+}
+
+@keyframes up {
+	0%{transform: rotate(0deg);
+		left:75%;}
+	25%{transform: rotate(-45deg);
+		left:40%;}
+	50%{transform: rotate(0deg);
+		left:0%;}
+	75%{transform: rotate(-45deg);
+		right:40%;}
+	100%{transform: rotate(0deg);
+		right:75%;}
+
+}
+
+
+/*========================*/
+
+.rec {
+	background-color: purple;
+	width: 300px;
+	height: 150px;
+	animation-name: rect;
+	animation-duration: 10s;
+	position: relative;
+	animation-iteration-count: infinite;
+	animation-delay: 5s;
+}
+
+@keyframes rect {
+	0%{width:300px ;}
+	25%{	width:350px ;	}
+	50%{		width:450px ;}
+	75%{	width:300px ;	}
+	100%{width:200px ;}
+}
+
+
+
+
+
+
+
+
